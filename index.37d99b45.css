@@ -1,0 +1,2 @@
+.search-form{background-color:#006400;justify-content:center;margin-bottom:20px;padding:15px;display:flex}.gallery{max-width:1140px;grid-gap:15px;grid-template-columns:repeat(4,1fr);justify-content:center;align-items:baseline;margin:0 auto;display:grid}.gallery__image{width:100%;object-fit:cover}.info{align-items:center;padding:0 7px;display:flex}.info-item{margin-right:10px}.info-item:last-child{margin-right:0}.photo-card{box-shadow:inset 1px -1px 5px rgba(154,147,140,.5),1px 1px 5px #fff}
+/*# sourceMappingURL=index.37d99b45.css.map */
