@@ -7,8 +7,9 @@ let searchText, pageValue;
 refs.formEl.addEventListener('submit', ev => {
     ev.preventDefault();
     refs.loadBtn.hidden = true;
-    searchText = ev.currentTarget.elements.searchQuery.value.trim();
     refs.galleryEl.innerHTML = '';
+    refs.allPhotos = [];
+    searchText = ev.currentTarget.elements.searchQuery.value.trim();
     if (!searchText) return;
     pageValue = 1;
     getResponse(searchText, pageValue);  

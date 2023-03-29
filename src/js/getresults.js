@@ -25,5 +25,4 @@ export function getResults(photos) {
     })
     .join('');
   refs.galleryEl.insertAdjacentHTML('beforeend', result);
-  refs.loadBtn.hidden = false;
 }
